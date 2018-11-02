@@ -1,0 +1,7 @@
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\3x3 square\3x3 square\bin\Debug\3x3 square.exe.config
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\3x3 square\3x3 square\bin\Debug\3x3 square.exe
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\3x3 square\3x3 square\bin\Debug\3x3 square.pdb
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\3x3 square\3x3 square\obj\Debug\3x3 square.csprojAssemblyReference.cache
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\3x3 square\3x3 square\obj\Debug\3x3 square.csproj.CoreCompileInputs.cache
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\3x3 square\3x3 square\obj\Debug\3x3 square.exe
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\3x3 square\3x3 square\obj\Debug\3x3 square.pdb

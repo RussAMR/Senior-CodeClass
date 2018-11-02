@@ -1,0 +1,7 @@
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Reverse String attempt\Reverse String attempt\bin\Debug\Reverse String attempt.exe.config
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Reverse String attempt\Reverse String attempt\bin\Debug\Reverse String attempt.exe
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Reverse String attempt\Reverse String attempt\bin\Debug\Reverse String attempt.pdb
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Reverse String attempt\Reverse String attempt\obj\Debug\Reverse String attempt.csprojAssemblyReference.cache
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Reverse String attempt\Reverse String attempt\obj\Debug\Reverse String attempt.csproj.CoreCompileInputs.cache
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Reverse String attempt\Reverse String attempt\obj\Debug\Reverse String attempt.exe
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Reverse String attempt\Reverse String attempt\obj\Debug\Reverse String attempt.pdb

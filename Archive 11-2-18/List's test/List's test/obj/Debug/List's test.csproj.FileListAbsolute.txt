@@ -1,0 +1,7 @@
+C:\Users\195712\source\repos\List's test\List's test\bin\Debug\List's test.exe.config
+C:\Users\195712\source\repos\List's test\List's test\bin\Debug\List's test.exe
+C:\Users\195712\source\repos\List's test\List's test\bin\Debug\List's test.pdb
+C:\Users\195712\source\repos\List's test\List's test\obj\Debug\List's test.csprojAssemblyReference.cache
+C:\Users\195712\source\repos\List's test\List's test\obj\Debug\List's test.csproj.CoreCompileInputs.cache
+C:\Users\195712\source\repos\List's test\List's test\obj\Debug\List's test.exe
+C:\Users\195712\source\repos\List's test\List's test\obj\Debug\List's test.pdb

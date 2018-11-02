@@ -1,0 +1,14 @@
+C:\Users\195712\source\repos\Rollercoaster Attempt\Rollercoaster Attempt\obj\Debug\Rollercoaster Attempt.csproj.CoreCompileInputs.cache
+C:\Users\195712\source\repos\Rollercoaster Attempt\Rollercoaster Attempt\bin\Debug\Rollercoaster Attempt.exe.config
+C:\Users\195712\source\repos\Rollercoaster Attempt\Rollercoaster Attempt\bin\Debug\Rollercoaster Attempt.exe
+C:\Users\195712\source\repos\Rollercoaster Attempt\Rollercoaster Attempt\bin\Debug\Rollercoaster Attempt.pdb
+C:\Users\195712\source\repos\Rollercoaster Attempt\Rollercoaster Attempt\obj\Debug\Rollercoaster Attempt.exe
+C:\Users\195712\source\repos\Rollercoaster Attempt\Rollercoaster Attempt\obj\Debug\Rollercoaster Attempt.pdb
+C:\Users\195712\source\repos\Rollercoaster Attempt\Rollercoaster Attempt\obj\Debug\Rollercoaster Attempt.csprojAssemblyReference.cache
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Rollercoaster Attempt\Rollercoaster Attempt\bin\Debug\Rollercoaster Attempt.exe.config
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Rollercoaster Attempt\Rollercoaster Attempt\bin\Debug\Rollercoaster Attempt.exe
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Rollercoaster Attempt\Rollercoaster Attempt\bin\Debug\Rollercoaster Attempt.pdb
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Rollercoaster Attempt\Rollercoaster Attempt\obj\Debug\Rollercoaster Attempt.csprojAssemblyReference.cache
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Rollercoaster Attempt\Rollercoaster Attempt\obj\Debug\Rollercoaster Attempt.csproj.CoreCompileInputs.cache
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Rollercoaster Attempt\Rollercoaster Attempt\obj\Debug\Rollercoaster Attempt.exe
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Rollercoaster Attempt\Rollercoaster Attempt\obj\Debug\Rollercoaster Attempt.pdb
