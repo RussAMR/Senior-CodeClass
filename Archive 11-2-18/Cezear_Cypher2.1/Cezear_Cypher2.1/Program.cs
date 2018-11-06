@@ -12,13 +12,14 @@ namespace Cezear_Cypher2._1
         {
             int menu = -1;
 
-            Console.WriteLine("************************");
-            Console.WriteLine("#1 Convert phrase to secondary");
-            Console.WriteLine("#2 Convert phrase back to english");
-            Console.WriteLine("#0 Exit");
-            Console.WriteLine("************************");
+
             do
             {
+                Console.WriteLine("************************");
+                Console.WriteLine("#1 Convert phrase to secondary");
+                Console.WriteLine("#2 Convert phrase back to english");
+                Console.WriteLine("#0 Exit");
+                Console.WriteLine("************************");
                 //menu
                 menu = int.Parse(Console.ReadLine());
 
@@ -26,24 +27,22 @@ namespace Cezear_Cypher2._1
                 if (menu == 1)
                 {
                     Encrypor();
-                    menu = int.Parse(Console.ReadLine());
-
+                    Console.WriteLine();
                 }
 
 
                 else if (menu == 2)
                 {
                     Decrypt();
-                    menu = int.Parse(Console.ReadLine());
+                    Console.WriteLine();
 
                 }
                 if (menu == 3)
                 {
                     JailBreak();
-                    menu = int.Parse(Console.ReadLine());
+                    Console.WriteLine();
                 }
                 Console.WriteLine("");
-                menu = int.Parse(Console.ReadLine());
             } while (menu != 0);
         }
         static void Encrypor()
