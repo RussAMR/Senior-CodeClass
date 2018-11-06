@@ -46,7 +46,7 @@ namespace Hangman_AR2
             //do-while failed guesses < 6 and sollution is not correct
             do
             {
-                bool tester = false;
+                bool didwin = true;
                 Hangman_word = Word_list[Randomword];
                 Letter_holder.Add(char.Parse(Console.ReadLine()));
                 for (int count = 0; count < Hangman_word.Length - 1; count++)
@@ -54,12 +54,12 @@ namespace Hangman_AR2
                     if (Hangman_word.Contains(Letter_holder[count]))
                     {
                         Console.Write(Letter_holder[count]);
-                        tester = true;
+                    
                     }
                     else
                     {
                         Console.Write("_");
-                        tester = false;
+                        didwin = false;
                     }
                 }
                 for(int count2 = 0; count2 < Counter; count2++)

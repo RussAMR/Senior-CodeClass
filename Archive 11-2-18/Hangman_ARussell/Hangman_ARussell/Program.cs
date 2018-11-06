@@ -23,7 +23,7 @@ namespace Hangman_ARussell
             int Randomword = 0;
             Random Words = new Random();
             Randomword = Words.Next(0, 20);
-            
+            bool didwin = true;
             //All the painful words
             Word_list[0] = "Place";
             Word_list[1] = "heat";
@@ -45,28 +45,46 @@ namespace Hangman_ARussell
             Word_list[17] = "joyous";
             Word_list[18] = "doll";
             Word_list[19] = "profit";
-
+            
             //Starting the nonbasic code
             Hangman_word = Word_list[Randomword];
-            Console.WriteLine("Your word is " + Hangman_word.Length + " letters long you have 6 guesses to guess the word :)");
-            for (int i = Hangman_word.Length; i == 0; i--)
+            Console.WriteLine("Your word is " + Hangman_word.Length + " letters long you have X guesses to guess the word :)");
+            for (int i = Hangman_word.Length / 2; i >= 0; i--)
             {
                 Console.WriteLine("You have " + i + " turns left");
-                Letter_holder[i] = Console.ReadLine()[0];
-                for (int N = 0; N >= Hangman_word.Length; N++)
+                Letter_holder.Add(Console.ReadLine()[0]);
+                if (Hangman_word.Contains(Letter_holder[Letter_holder.Count - 1]))
+                {
+                    i++;
+                }
+                didwin = true;
+                for (int N = 0; N < Hangman_word.Length; N++)
                 {
 
                     if (Letter_holder.Contains(Hangman_word[N]))
                     {
-                        Console.WriteLine("That is correct!");
-                        Console.WriteLine(Hangman_word[N]);
+                        Console.Write(Hangman_word[N]);
                     }
                     else
                     {
-                        Console.WriteLine("_");
+                        Console.Write("_");
+                        didwin = false;
                     }
                 }
+                if (didwin == true)
+                {
+                    break;
+                }
             }
+            if (didwin == true)
+            {
+                Console.WriteLine("you win! :)");
+            }
+            else
+            {
+                Console.WriteLine("you lost :(");
+            }
+
         }
     }
 }

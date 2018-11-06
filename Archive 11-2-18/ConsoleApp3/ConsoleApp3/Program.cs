@@ -10,25 +10,34 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            Random rand = new Random();
-            int myRand;
-            List<int> MyRandList = new List<int>();
-            for (int i = 0; i < 10; i++)
+            int[] myintArray = new int[10];
+            Random R = new Random();
+            int seed;
+            for (int i = 0; i < myintArray.Length; i++)
             {
-                myRand = rand.Next(0, 10);
-                MyRandList.Add(myRand);
-                Console.WriteLine(MyRandList[i]);
-                Console.ReadKey();
+
+                seed = R.Next(0,10);
+                for(int K = 0; K < myintArray.Length; K++)
+                myintArray[i] = seed;
             }
-            for (int i = MyRandList.Count - 1; i > 0; i--)
+            
+            for(int i = 0; i < myintArray.Length; i++)
             {
-                MyRandList.RemoveAt(i);
+                for (int K = 0; K < myintArray.Length; K++)
+                {
+                    if (myintArray[i] < myintArray[K])
+                    {
+                        int holder = myintArray[i];
+                        myintArray[i] = myintArray[K];
+                        myintArray[K] = holder;
+                    }
+                }
             }
-            int[] myIntArray = new int[10];
-            for (int I = 0; I < 10; I++)
+            for(int L = 0; L < myintArray.Length; L++)
             {
-                myIntArray[I] = 0;
+                Console.Write(myintArray[L]  + ", ");
             }
+            Console.ReadKey();
         }
     }
 }

@@ -10,15 +10,8 @@ namespace Cezear_Cypher2._1
     {
         static void Main(string[] args)
         {
-            List<int> Cypher = new List<int>();
-            List<char> Secrettext = new List<char>();
-            List<char> Jailbreak = new List<char>();
-            char Caesar;
-            int PreCypher;
-            string Userinput;
-            int Shiftnum;
             int menu = -1;
-           
+
             Console.WriteLine("************************");
             Console.WriteLine("#1 Convert phrase to secondary");
             Console.WriteLine("#2 Convert phrase back to english");
@@ -32,95 +25,137 @@ namespace Cezear_Cypher2._1
                 //first converter
                 if (menu == 1)
                 {
+                    Encrypor();
+                    menu = int.Parse(Console.ReadLine());
 
-
-                    Console.WriteLine("Hello welcome to the caesar Cypher program");
-                    Console.WriteLine("Please input your shift # from -25 to 25");
-                    Shiftnum = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Please input your phrase");
-                    Userinput = Console.ReadLine();
-                    for (int I = 0; I <= Userinput.Length - 1; I++)
-                    {
-                        PreCypher = Userinput[I];
-                        Cypher.Add(PreCypher + Shiftnum);
-                    }
-                    for (int I = 0; I <= Userinput.Length - 1; I++)
-                    {
-                        if (Cypher[I] >= 123)
-                        {
-                            Cypher[I] = Cypher[I] - 26;
-                        }
-                        else if (Cypher[I] <= 96)
-                        {
-                            Cypher[I] = Cypher[I] + 26;
-                        }
-                        else
-                        {
-
-                        }
-                    }
-                    for (int X = 0; X <= Userinput.Length - 1; X++)
-                    {
-                        Caesar = (char)Cypher[X];
-                        Secrettext.Add(Caesar);
-
-                    }
-                    for (int P = 0; P <= Userinput.Length - 1; P++)
-                    {
-                        Console.Write(Secrettext[P]);
-                    }
                 }
+
+
                 else if (menu == 2)
                 {
-                    Console.WriteLine("Hello welcome to the caesar cypher reconverter");
-                    Console.WriteLine("Please input your shift # from -25 to 25");
-                    Shiftnum = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Please input your Phrase");
-                    Userinput = Console.ReadLine();
-                    for (int I = 0; I <= Userinput.Length - 1; I++)
-                    {
-                        PreCypher = Userinput[I];
-                        Cypher.Add(PreCypher - Shiftnum);
-                    }
-                    for (int I = 0; I <= Userinput.Length - 1; I++)
-                    {
-                        if (Cypher[I] >= 123)
-                        {
-                            Cypher[I] = Cypher[I] - 26;
-                        }
-                        else if (Cypher[I] <= 96)
-                        {
-                            Cypher[I] = Cypher[I] + 26;
-                        }
-                        else
-                        {
+                    Decrypt();
+                    menu = int.Parse(Console.ReadLine());
 
-                        }
-                    }
-                    for (int X = 0; X <= Userinput.Length - 1; X++)
-                    {
-                        Caesar = (char)Cypher[X];
-                        Secrettext.Add(Caesar);
-
-                    }
-                    for (int P = 0; P <= Userinput.Length - 1; P++)
-                    {
-                        Console.Write(Secrettext[P]);
-                    }
                 }
-                if(menu == 3)
+                if (menu == 3)
                 {
-                    Console.WriteLine("Hello welcome to the caesar cypher  jailbreak converter");
-                    Console.WriteLine("Please input your Phrase");
-                    Userinput = Console.ReadLine();
-                    for (int X = 0; X <= Userinput.Length - 1; X++)
-                    {
-                      
-                    }
+                    JailBreak();
+                    menu = int.Parse(Console.ReadLine());
                 }
                 Console.WriteLine("");
                 menu = int.Parse(Console.ReadLine());
             } while (menu != 0);
+        }
+        static void Encrypor()
+        {
+            List<int> Cypher = new List<int>();
+            List<char> Secrettext = new List<char>();
+            List<char> Jailbreak = new List<char>();
+            char Caesar;
+            int PreCypher;
+            string Userinput;
+            int Shiftnum;
+
+            Console.WriteLine("Hello welcome to the caesar Cypher program");
+            Console.WriteLine("Please input your shift # from -25 to 25");
+            Shiftnum = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please input your phrase");
+            Userinput = Console.ReadLine();
+            for (int I = 0; I <= Userinput.Length - 1; I++)
+            {
+                PreCypher = Userinput[I];
+                Cypher.Add(PreCypher + Shiftnum);
+            }
+            for (int I = 0; I <= Userinput.Length - 1; I++)
+            {
+                if (Cypher[I] >= 123)
+                {
+                    Cypher[I] = Cypher[I] - 26;
+                }
+                else if (Cypher[I] <= 96)
+                {
+                    Cypher[I] = Cypher[I] + 26;
+                }
+                else
+                {
+
+                }
+            }
+            for (int X = 0; X <= Userinput.Length - 1; X++)
+            {
+                Caesar = (char)Cypher[X];
+                Secrettext.Add(Caesar);
+
+            }
+            for (int P = 0; P <= Userinput.Length - 1; P++)
+            {
+                Console.Write(Secrettext[P]);
+            }
+
+        }
+        static void Decrypt()
+        {
+            List<int> Cypher = new List<int>();
+            List<char> Secrettext = new List<char>();
+            List<char> Jailbreak = new List<char>();
+            char Caesar;
+            int PreCypher;
+            string Userinput;
+            int Shiftnum;
+
+            Console.WriteLine("Hello welcome to the caesar cypher reconverter");
+            Console.WriteLine("Please input your shift # from -25 to 25");
+            Shiftnum = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please input your Phrase");
+            Userinput = Console.ReadLine();
+            for (int I = 0; I <= Userinput.Length - 1; I++)
+            {
+                PreCypher = Userinput[I];
+                Cypher.Add(PreCypher - Shiftnum);
+            }
+            for (int I = 0; I <= Userinput.Length - 1; I++)
+            {
+                if (Cypher[I] >= 123)
+                {
+                    Cypher[I] = Cypher[I] - 26;
+                }
+                else if (Cypher[I] <= 96)
+                {
+                    Cypher[I] = Cypher[I] + 26;
+                }
+                else
+                {
+
+                }
+            }
+            for (int X = 0; X <= Userinput.Length - 1; X++)
+            {
+                Caesar = (char)Cypher[X];
+                Secrettext.Add(Caesar);
+
+            }
+            for (int P = 0; P <= Userinput.Length - 1; P++)
+            {
+                Console.Write(Secrettext[P]);
+            }
+        }
+        static void JailBreak()
+        {
+            List<int> Cypher = new List<int>();
+            List<char> Secrettext = new List<char>();
+            List<char> Jailbreak = new List<char>();
+            char Caesar;
+            int PreCypher;
+            string Userinput;
+            int Shiftnum;
+
+            Console.WriteLine("Hello welcome to the caesar cypher  jailbreak converter");
+            Console.WriteLine("Please input your Phrase");
+            Userinput = Console.ReadLine();
+            for (int X = 0; X <= Userinput.Length - 1; X++)
+            {
+
+            }
         }
     }
 }
