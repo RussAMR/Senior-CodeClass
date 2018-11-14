@@ -10,36 +10,52 @@ namespace Tic_Tac_Toe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Type 1 for (3x3) type 2 for (4x4)");
-            int UInp = int.Parse(Console.ReadLine());
-            drawBoard();
-
-            void drawBoard()
+            char[,] board = new char[3, 3];
+            for (int i = 0; i < 3; i++)
             {
-                string[][] JA = new string[1][];
-                if (UInp == 1)
+                for (int j = 0; j < 3; j++)
                 {
-                    for (int p = 0; p < 3; p++)
-                    {
-                        for (int i = 0; i < 4; i++)
-                        {
-                            Console.Write("|" + " ");
-                        }
-                        Console.WriteLine();
-                    }
-                }
-                if (UInp == 2)
-                {
-                    for (int p = 0; p < 4; p++)
-                    {
-                        for (int i = 0; i < 5; i++)
-                        {
-                            Console.Write("|" + " ");
-                        }
-                        Console.WriteLine();
-                    }
+                    board[i, j] = ' ';
                 }
             }
+            Console.WriteLine("Type 1 for (3x3) type 2 for (4x4)");
+            int UInp = int.Parse(Console.ReadLine());
+            if(UInp = 1)
+            {
+
+            }
+            int[,] MDA = new int[10, 5];
+
+            for (int i = 0; i < MDA.GetLength(0); i++)
+            {
+                for (int j = 0; j < MDA.GetLength(1); j++)
+                {
+                    MDA[i, j] = i * j;
+                }
+            }
+            drawBoard(board);
+
+        }
+        static void drawBoard(char[,] Board)
+        {
+            for (int i = 0; i < Board.GetLength(0); i++)
+            {
+                for (int j = 0; j < Board.GetLength(1); j++)
+                {
+                    Console.Write(Board[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
+
+
+        }
+        static void Processturn(char[,] Array, char Player)
+        {
+
+        }
+        static void VerBoard(char[,] Board)
+        {
+            
         }
     }
 }
