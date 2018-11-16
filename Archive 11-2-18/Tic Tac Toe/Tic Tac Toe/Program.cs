@@ -20,7 +20,7 @@ namespace Tic_Tac_Toe
             }
             Console.WriteLine("Type 1 for (3x3) type 2 for (4x4)");
             int UInp = int.Parse(Console.ReadLine());
-            if(UInp = 1)
+            if(UInp == 1)
             {
 
             }
