@@ -10,7 +10,7 @@ public class Player_Scrpt : MonoBehaviour
     float jump = 7;
     Vector3 reset = new Vector3(-1.649f, -0.389f, 0);
     [SerializeField]
-    float speed = 6.5f;
+    float speed = 2f;
     bool Jumpability = true;
     Vector3 velocity = new Vector3(0, 0, 0);
     Rigidbody2D ourbody;
@@ -29,7 +29,7 @@ public class Player_Scrpt : MonoBehaviour
         {
             velocity += Vector3.up * jump;
             Jumpability = false;
-            AudioManager.Instance.PlayOneShot(SoundEffect.Jump11);
+            AudioManager.Instance.PlayOneShot(SoundEffect.Jump11,.1f);
         }
         if (Input.GetKey(KeyCode.A))
         {
@@ -43,15 +43,13 @@ public class Player_Scrpt : MonoBehaviour
         {
             velocity = new Vector3(velocity.x * (1 - Time.deltaTime * 5), velocity.y, 0);
         }
-        ourbody.velocity = new Vector3(Mathf.Clamp(velocity.x, -1f, 1f), Mathf.Clamp(velocity.y, -4f, jump), 0);
+        ourbody.velocity = new Vector3(Mathf.Clamp(velocity.x, -2f, 2f), Mathf.Clamp(velocity.y, -4f, jump), 0);
 
     }
 
     public void onclickteleportbutton()
     {
         transform.position = TeleportLocations[Random.Range(0, TeleportLocations.Count)];
-
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
