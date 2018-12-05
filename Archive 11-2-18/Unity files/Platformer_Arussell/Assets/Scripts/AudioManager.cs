@@ -29,7 +29,7 @@ public class AudioManager
         Object.DontDestroyOnLoad(soundEffectSource.gameObject);
 
         BGMSource = new GameObject("BGMSource", typeof(AudioSource)).GetComponent<AudioSource>();
-        BGMSource.volume = .25f;
+        BGMSource.volume = .5f;
         BGMSource.loop = true;
         Object.DontDestroyOnLoad(BGMSource.gameObject);
         ChangeBGM(Resources.Load<AudioClip>("C:/Users/195712/Documents/Platformer_Arussell/Assets/Resources/Bgm"));
