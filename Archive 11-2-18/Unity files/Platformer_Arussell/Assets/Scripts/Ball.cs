@@ -22,33 +22,25 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-        if (timer > time_to_reach)
-        {
-            GetComponent<SpriteRenderer>().color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
-            timer = 0;
-        }
+        //timer += Time.deltaTime;
+        //if (timer > time_to_reach)
+        //{
+        //    GetComponent<SpriteRenderer>().color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+        //    timer = 0;
+        //}
         transform.position += velocity * Time.deltaTime * speed;
-        if (transform.position.y < -1)
-        {
-            velocity = Vector3.Reflect(velocity, Vector3.up);
-            transform.position = new Vector3(transform.position.x, -1, 0);
-        }
-        if (transform.position.y > 1)
-        {
-            velocity = Vector3.Reflect(velocity, Vector3.down);
-            transform.position = new Vector3(transform.position.x, 1, 0);
-        }
-        if (transform.position.x > 1.75)
-        {
-            velocity = Vector3.Reflect(velocity, Vector3.left);
-            transform.position = new Vector3(1.75f, transform.position.y, 0);
-        }
-        if (transform.position.x < -1.75)
-        {
-            velocity = Vector3.Reflect(velocity, Vector3.right);
-            transform.position = new Vector3(-1.75f, transform.position.y, 0);
-        }
 
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Enemy")
+        {
+            Destroy(gameObject); //Deletes the ball
+        }
+        if (collision.tag == "Ground")
+        {
+            Destroy(gameObject); //Deletes the ball
+        }
+    }
+
 }

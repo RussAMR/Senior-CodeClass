@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 10055248}
   - component: {fileID: 10055250}
   - component: {fileID: 10055249}
+  - component: {fileID: 10055251}
   m_Layer: 0
   m_Name: Plat - 10
   m_TagString: Ground
@@ -213,6 +214,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &10055251
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10055247}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &41942224
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,8 +367,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c0f606d814e7b34d99d711e79bb380b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballPrefab: {fileID: 1132087783622064, guid: f32e95a8ec526e7428c82250b46ee3fc, type: 2}
   TeleportLocations: []
   speed: 6.5
+  StandingMan: {fileID: 21300000, guid: 51d6f85e11255b944b053c6941148c5e, type: 3}
+  StandingMan_1: {fileID: 21300000, guid: 7be42f0ee6a0e754692eba993d5e12b5, type: 3}
+  StandingMan_2: {fileID: 21300000, guid: a9580549a585dd64087ca47c7fb17cd4, type: 3}
+  StandingMan_3: {fileID: 21300000, guid: 6ab6fb538154eaa47ad4b678bf5a5ebf, type: 3}
+  StandingMan_4: {fileID: 21300000, guid: 4379bb2b9b10e4f448779b51fdd5c512, type: 3}
+  StandingMan_5: {fileID: 21300000, guid: 0caccb38e2be8ab4c893d53b26f41dfe, type: 3}
+  StandingMan_6: {fileID: 21300000, guid: 51d6f85e11255b944b053c6941148c5e, type: 3}
 --- !u!1 &49639479
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,7 +486,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 49639479}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.733, y: 2.67, z: 0.030273438}
+  m_LocalPosition: {x: -0.19, y: -1.1, z: 0.030273438}
   m_LocalScale: {x: 0.16656618, y: 0.3433711, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -478,11 +507,11 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 7
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &80118908
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,6 +522,7 @@ GameObject:
   - component: {fileID: 80118909}
   - component: {fileID: 80118911}
   - component: {fileID: 80118910}
+  - component: {fileID: 80118912}
   m_Layer: 0
   m_Name: Plat - 28
   m_TagString: Ground
@@ -583,6 +613,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &80118912
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 80118908}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &146861277
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,6 +643,7 @@ GameObject:
   - component: {fileID: 146861278}
   - component: {fileID: 146861280}
   - component: {fileID: 146861279}
+  - component: {fileID: 146861281}
   m_Layer: 0
   m_Name: Plat - 4
   m_TagString: Ground
@@ -683,6 +734,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &146861281
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 146861277}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &171309852
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,6 +876,7 @@ GameObject:
   - component: {fileID: 200104436}
   - component: {fileID: 200104438}
   - component: {fileID: 200104437}
+  - component: {fileID: 200104439}
   m_Layer: 0
   m_Name: Plat - 26
   m_TagString: Ground
@@ -895,6 +967,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &200104439
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200104435}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &267610252
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,6 +997,7 @@ GameObject:
   - component: {fileID: 267610253}
   - component: {fileID: 267610255}
   - component: {fileID: 267610254}
+  - component: {fileID: 267610256}
   m_Layer: 0
   m_Name: Plat - 29
   m_TagString: Ground
@@ -995,6 +1088,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &267610256
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 267610252}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &272852962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,6 +1118,7 @@ GameObject:
   - component: {fileID: 272852963}
   - component: {fileID: 272852965}
   - component: {fileID: 272852964}
+  - component: {fileID: 272852966}
   m_Layer: 0
   m_Name: Plat - 21
   m_TagString: Ground
@@ -1095,6 +1209,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &272852966
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 272852962}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &333283943
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,6 +1239,7 @@ GameObject:
   - component: {fileID: 333283944}
   - component: {fileID: 333283946}
   - component: {fileID: 333283945}
+  - component: {fileID: 333283947}
   m_Layer: 0
   m_Name: Plat - 19
   m_TagString: Ground
@@ -1195,6 +1330,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &333283947
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 333283943}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &357031664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,6 +1360,7 @@ GameObject:
   - component: {fileID: 357031665}
   - component: {fileID: 357031667}
   - component: {fileID: 357031666}
+  - component: {fileID: 357031668}
   m_Layer: 0
   m_Name: Plat - 22
   m_TagString: Ground
@@ -1295,6 +1451,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &357031668
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 357031664}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &419669525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,8 +1742,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 546262146}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.43, y: 2.29, z: 0.030273438}
-  m_LocalScale: {x: 0.15396032, y: 0.20446888, z: 1}
+  m_LocalPosition: {x: 1.03, y: -1.46, z: 0.030273438}
+  m_LocalScale: {x: -0.63175094, y: -0.30139992, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1587,11 +1763,11 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 7
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &589895906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,6 +1872,7 @@ GameObject:
   - component: {fileID: 595524000}
   - component: {fileID: 595524002}
   - component: {fileID: 595524001}
+  - component: {fileID: 595524003}
   m_Layer: 0
   m_Name: Plat - 3
   m_TagString: Ground
@@ -1786,6 +1963,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &595524003
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 595523999}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &606398900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1796,6 +1993,7 @@ GameObject:
   - component: {fileID: 606398901}
   - component: {fileID: 606398903}
   - component: {fileID: 606398902}
+  - component: {fileID: 606398904}
   m_Layer: 0
   m_Name: Plat - 34
   m_TagString: Ground
@@ -1886,6 +2084,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &606398904
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 606398900}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &717618598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,6 +2114,7 @@ GameObject:
   - component: {fileID: 717618599}
   - component: {fileID: 717618601}
   - component: {fileID: 717618600}
+  - component: {fileID: 717618602}
   m_Layer: 0
   m_Name: Plat - 27
   m_TagString: Ground
@@ -1986,6 +2205,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &717618602
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 717618598}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &719596365
 GameObject:
   m_ObjectHideFlags: 0
@@ -1996,6 +2235,7 @@ GameObject:
   - component: {fileID: 719596366}
   - component: {fileID: 719596368}
   - component: {fileID: 719596367}
+  - component: {fileID: 719596369}
   m_Layer: 0
   m_Name: Plat - 32
   m_TagString: Ground
@@ -2086,6 +2326,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &719596369
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 719596365}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &801324756
 GameObject:
   m_ObjectHideFlags: 0
@@ -2096,6 +2356,7 @@ GameObject:
   - component: {fileID: 801324757}
   - component: {fileID: 801324759}
   - component: {fileID: 801324758}
+  - component: {fileID: 801324760}
   m_Layer: 0
   m_Name: Plat - 9
   m_TagString: Ground
@@ -2186,6 +2447,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &801324760
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 801324756}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &834383825
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,6 +2477,7 @@ GameObject:
   - component: {fileID: 834383826}
   - component: {fileID: 834383828}
   - component: {fileID: 834383827}
+  - component: {fileID: 834383829}
   m_Layer: 0
   m_Name: Plat - 16
   m_TagString: Ground
@@ -2286,6 +2568,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &834383829
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 834383825}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &965478014
 GameObject:
   m_ObjectHideFlags: 0
@@ -2296,6 +2598,7 @@ GameObject:
   - component: {fileID: 965478015}
   - component: {fileID: 965478017}
   - component: {fileID: 965478016}
+  - component: {fileID: 965478018}
   m_Layer: 0
   m_Name: Plat - 20
   m_TagString: Ground
@@ -2386,6 +2689,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &965478018
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 965478014}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1015492329
 GameObject:
   m_ObjectHideFlags: 0
@@ -2396,6 +2719,7 @@ GameObject:
   - component: {fileID: 1015492330}
   - component: {fileID: 1015492333}
   - component: {fileID: 1015492332}
+  - component: {fileID: 1015492331}
   m_Layer: 0
   m_Name: Plat - 37
   m_TagString: Ground
@@ -2416,6 +2740,26 @@ Transform:
   m_Father: {fileID: 1317709840}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!50 &1015492331
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1015492329}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!61 &1015492332
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2496,6 +2840,8 @@ GameObject:
   - component: {fileID: 1055755428}
   - component: {fileID: 1055755430}
   - component: {fileID: 1055755429}
+  - component: {fileID: 1055755431}
+  - component: {fileID: 1055755432}
   m_Layer: 0
   m_Name: Plat - 8
   m_TagString: Ground
@@ -2586,6 +2932,38 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1055755431
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1055755427}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!114 &1055755432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1055755427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468b7c06fccd8aa44a98f4c2c07eec2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
 --- !u!1 &1161031374
 GameObject:
   m_ObjectHideFlags: 0
@@ -2613,7 +2991,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1161031374}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2712,15 +3090,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.04164828
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 7
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1162549568
 GameObject:
   m_ObjectHideFlags: 0
@@ -2731,6 +3109,7 @@ GameObject:
   - component: {fileID: 1162549569}
   - component: {fileID: 1162549571}
   - component: {fileID: 1162549570}
+  - component: {fileID: 1162549572}
   m_Layer: 0
   m_Name: Plat - 1
   m_TagString: Ground
@@ -2821,6 +3200,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1162549572
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1162549568}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1163732170
 GameObject:
   m_ObjectHideFlags: 0
@@ -2943,6 +3342,7 @@ GameObject:
   - component: {fileID: 1199750386}
   - component: {fileID: 1199750388}
   - component: {fileID: 1199750387}
+  - component: {fileID: 1199750389}
   m_Layer: 0
   m_Name: Plat - 23
   m_TagString: Ground
@@ -3033,6 +3433,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1199750389
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1199750385}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1208175586
 GameObject:
   m_ObjectHideFlags: 0
@@ -3043,6 +3463,7 @@ GameObject:
   - component: {fileID: 1208175587}
   - component: {fileID: 1208175589}
   - component: {fileID: 1208175588}
+  - component: {fileID: 1208175590}
   m_Layer: 0
   m_Name: Plat - 11
   m_TagString: Ground
@@ -3133,6 +3554,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1208175590
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1208175586}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1223027903
 GameObject:
   m_ObjectHideFlags: 0
@@ -3205,6 +3646,7 @@ GameObject:
   - component: {fileID: 1244905028}
   - component: {fileID: 1244905030}
   - component: {fileID: 1244905029}
+  - component: {fileID: 1244905031}
   m_Layer: 0
   m_Name: Plat - 36
   m_TagString: Ground
@@ -3295,6 +3737,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1244905031
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1244905027}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1254125094
 GameObject:
   m_ObjectHideFlags: 0
@@ -3305,6 +3767,7 @@ GameObject:
   - component: {fileID: 1254125095}
   - component: {fileID: 1254125097}
   - component: {fileID: 1254125096}
+  - component: {fileID: 1254125098}
   m_Layer: 0
   m_Name: Plat - 35
   m_TagString: Ground
@@ -3395,6 +3858,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1254125098
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254125094}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1279116319
 GameObject:
   m_ObjectHideFlags: 0
@@ -3405,6 +3888,7 @@ GameObject:
   - component: {fileID: 1279116320}
   - component: {fileID: 1279116322}
   - component: {fileID: 1279116321}
+  - component: {fileID: 1279116323}
   m_Layer: 0
   m_Name: Plat - 25
   m_TagString: Ground
@@ -3495,6 +3979,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1279116323
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1279116319}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1309334843
 GameObject:
   m_ObjectHideFlags: 0
@@ -3505,6 +4009,7 @@ GameObject:
   - component: {fileID: 1309334844}
   - component: {fileID: 1309334846}
   - component: {fileID: 1309334845}
+  - component: {fileID: 1309334847}
   m_Layer: 0
   m_Name: Plat - 15
   m_TagString: Ground
@@ -3595,6 +4100,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1309334847
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1309334843}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1317709839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3787,6 +4312,7 @@ GameObject:
   - component: {fileID: 1455316775}
   - component: {fileID: 1455316777}
   - component: {fileID: 1455316776}
+  - component: {fileID: 1455316778}
   m_Layer: 0
   m_Name: Plat - 18
   m_TagString: Ground
@@ -3877,6 +4403,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1455316778
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1455316774}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1503860408
 GameObject:
   m_ObjectHideFlags: 0
@@ -3887,6 +4433,7 @@ GameObject:
   - component: {fileID: 1503860409}
   - component: {fileID: 1503860411}
   - component: {fileID: 1503860410}
+  - component: {fileID: 1503860412}
   m_Layer: 0
   m_Name: Plat - 13
   m_TagString: Ground
@@ -3977,6 +4524,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1503860412
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1503860408}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1517921145
 GameObject:
   m_ObjectHideFlags: 0
@@ -3987,6 +4554,7 @@ GameObject:
   - component: {fileID: 1517921146}
   - component: {fileID: 1517921148}
   - component: {fileID: 1517921147}
+  - component: {fileID: 1517921149}
   m_Layer: 0
   m_Name: Plat - 24
   m_TagString: Ground
@@ -4077,6 +4645,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1517921149
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1517921145}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1525765549
 GameObject:
   m_ObjectHideFlags: 0
@@ -4209,6 +4797,7 @@ GameObject:
   - component: {fileID: 1561777810}
   - component: {fileID: 1561777812}
   - component: {fileID: 1561777811}
+  - component: {fileID: 1561777813}
   m_Layer: 0
   m_Name: Plat - 17
   m_TagString: Ground
@@ -4299,6 +4888,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1561777813
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1561777809}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1578768476
 GameObject:
   m_ObjectHideFlags: 0
@@ -4309,6 +4918,7 @@ GameObject:
   - component: {fileID: 1578768477}
   - component: {fileID: 1578768479}
   - component: {fileID: 1578768478}
+  - component: {fileID: 1578768480}
   m_Layer: 0
   m_Name: Plat - 2
   m_TagString: Ground
@@ -4341,7 +4951,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.003524065}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4352,7 +4962,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 1.0070481}
   m_EdgeRadius: 0
 --- !u!212 &1578768479
 SpriteRenderer:
@@ -4399,6 +5009,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1578768480
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1578768476}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1599453171
 GameObject:
   m_ObjectHideFlags: 0
@@ -4483,7 +5113,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1599453171}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.3, y: 1.07, z: 0.030273438}
+  m_LocalPosition: {x: 0.92, y: -0.81, z: 0.030273438}
   m_LocalScale: {x: 0.19184236, y: 0.21709637, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4504,11 +5134,11 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 7
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!61 &1599453176
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4544,6 +5174,7 @@ GameObject:
   - component: {fileID: 1608949139}
   - component: {fileID: 1608949141}
   - component: {fileID: 1608949140}
+  - component: {fileID: 1608949142}
   m_Layer: 0
   m_Name: Plat - 5
   m_TagString: Ground
@@ -4634,6 +5265,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1608949142
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1608949138}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1618410983
 GameObject:
   m_ObjectHideFlags: 0
@@ -4644,6 +5295,7 @@ GameObject:
   - component: {fileID: 1618410984}
   - component: {fileID: 1618410986}
   - component: {fileID: 1618410985}
+  - component: {fileID: 1618410987}
   m_Layer: 0
   m_Name: Plat - 30
   m_TagString: Ground
@@ -4734,6 +5386,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1618410987
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1618410983}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1671221609
 GameObject:
   m_ObjectHideFlags: 0
@@ -4744,6 +5416,7 @@ GameObject:
   - component: {fileID: 1671221610}
   - component: {fileID: 1671221612}
   - component: {fileID: 1671221611}
+  - component: {fileID: 1671221613}
   m_Layer: 0
   m_Name: Plat - 31
   m_TagString: Ground
@@ -4834,6 +5507,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1671221613
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1671221609}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1690548018
 GameObject:
   m_ObjectHideFlags: 0
@@ -4844,6 +5537,8 @@ GameObject:
   - component: {fileID: 1690548019}
   - component: {fileID: 1690548021}
   - component: {fileID: 1690548020}
+  - component: {fileID: 1690548022}
+  - component: {fileID: 1690548023}
   m_Layer: 0
   m_Name: Plat - 7
   m_TagString: Ground
@@ -4934,6 +5629,38 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1690548022
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1690548018}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!114 &1690548023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1690548018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468b7c06fccd8aa44a98f4c2c07eec2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
 --- !u!1 &1768242164
 GameObject:
   m_ObjectHideFlags: 0
@@ -4944,6 +5671,8 @@ GameObject:
   - component: {fileID: 1768242165}
   - component: {fileID: 1768242167}
   - component: {fileID: 1768242166}
+  - component: {fileID: 1768242168}
+  - component: {fileID: 1768242169}
   m_Layer: 0
   m_Name: Plat - 6
   m_TagString: Ground
@@ -5034,6 +5763,38 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1768242168
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768242164}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!114 &1768242169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768242164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468b7c06fccd8aa44a98f4c2c07eec2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
 --- !u!1 &1793719475
 GameObject:
   m_ObjectHideFlags: 0
@@ -5044,6 +5805,7 @@ GameObject:
   - component: {fileID: 1793719476}
   - component: {fileID: 1793719478}
   - component: {fileID: 1793719477}
+  - component: {fileID: 1793719479}
   m_Layer: 0
   m_Name: Plat - 14
   m_TagString: Ground
@@ -5134,6 +5896,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1793719479
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1793719475}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1807811700
 GameObject:
   m_ObjectHideFlags: 0
@@ -5144,6 +5926,7 @@ GameObject:
   - component: {fileID: 1807811701}
   - component: {fileID: 1807811703}
   - component: {fileID: 1807811702}
+  - component: {fileID: 1807811704}
   m_Layer: 0
   m_Name: Plat - 12
   m_TagString: Ground
@@ -5234,6 +6017,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &1807811704
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1807811700}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1855248307
 GameObject:
   m_ObjectHideFlags: 0
@@ -5356,6 +6159,7 @@ GameObject:
   - component: {fileID: 2104644359}
   - component: {fileID: 2104644361}
   - component: {fileID: 2104644360}
+  - component: {fileID: 2104644362}
   m_Layer: 0
   m_Name: Plat - 33
   m_TagString: Ground
@@ -5446,6 +6250,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!50 &2104644362
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2104644358}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 6200000, guid: 435311d73415dab479ea341636b4aee3, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &2105836306
 GameObject:
   m_ObjectHideFlags: 0

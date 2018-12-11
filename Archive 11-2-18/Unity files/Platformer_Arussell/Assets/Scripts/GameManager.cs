@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager
 {
+
     float timeLeft = 30.0f;
     static GameManager instance;
     public Player_Scrpt MyCharacter

@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_Scrpt : MonoBehaviour
 {
-
+    [SerializeField]
+    GameObject ballPrefab;
     [SerializeField]
     public List<Vector3> TeleportLocations = new List<Vector3>();
     float jump = 7;
@@ -23,13 +25,12 @@ public class Player_Scrpt : MonoBehaviour
     public Sprite StandingMan_4;
     public Sprite StandingMan_5;
     public Sprite StandingMan_6;
-    public Sprite StandingMan_7;
     // Use this for initialization
     void Start()
     {
-        AudioManager.Instance.PlayOneShot(SoundEffect.Bgm);
         ourbody = GetComponent<Rigidbody2D>();
         GameManager.Instance.MyCharacter = this;
+        AudioManager.Instance.PlayOneShot(SoundEffect.Bgm2);
     }
     // Update is called once per frame
     void Update()
@@ -39,6 +40,7 @@ public class Player_Scrpt : MonoBehaviour
         {
             velocity += Vector3.up * jump;
             Jumpability = false;
+            //ChangeTheSprite();
             AudioManager.Instance.PlayOneShot(SoundEffect.Jump11);
         }
         if (Input.GetKey(KeyCode.A))
@@ -48,15 +50,24 @@ public class Player_Scrpt : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             velocity += Vector3.right * speed * Time.deltaTime;
-            ChangeTheSprite();
+
         }
         if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
         {
             velocity = new Vector3(velocity.x * (1 - Time.deltaTime * 5), velocity.y, 0);
         }
+        if (Input.GetKey(KeyCode.Space))
+        {
+            GameObject newBall = Instantiate(ballPrefab);
+            newBall.transform.position = transform.position;
+            newBall.GetComponent<Ball>().velocity = lookatdirection(transform.eulerAngles.z);
+            newBall.GetComponent<SpriteRenderer>().color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+
+        }
         ourbody.velocity = new Vector3(Mathf.Clamp(velocity.x, -1f, 1f), Mathf.Clamp(velocity.y, -4f, jump), 0);
 
     }
+
 
     public void onclickteleportbutton()
     {
@@ -74,7 +85,7 @@ public class Player_Scrpt : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("WB"))
         {
-            transform.position = reset;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             speed = 6.5f;
         }
     }
@@ -110,14 +121,14 @@ public class Player_Scrpt : MonoBehaviour
             {
                 spriteRenderer.sprite = StandingMan_6;
             }
-            for (int i = 0; i < 1; i++)
-            {
-                spriteRenderer.sprite = StandingMan_7;
-            }
         }
         else
         {
             spriteRenderer.sprite = StandingMan;
         }
+    }
+    public Vector3 lookatdirection(float eulerAngels2)
+    {
+        return new Vector3(Mathf.Cos(eulerAngels2 * Mathf.Deg2Rad), Mathf.Sin(eulerAngels2 * Mathf.Deg2Rad), 0);
     }
 }

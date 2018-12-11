@@ -36,5 +36,9 @@ public class Enemy : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+        if (collision.collider.tag == "Ball")
+        {
+            Destroy(gameObject); //Deletes the Enemy
+        }
     }
 }

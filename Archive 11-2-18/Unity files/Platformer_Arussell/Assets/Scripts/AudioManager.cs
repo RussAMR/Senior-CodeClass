@@ -8,7 +8,8 @@ using Object = UnityEngine.Object;
 public enum SoundEffect
 {
     Jump11,
-    Bgm
+    Bgm,
+    Bgm2
 }
 public class AudioManager
 {
@@ -32,7 +33,7 @@ public class AudioManager
         BGMSource.volume = .5f;
         BGMSource.loop = true;
         Object.DontDestroyOnLoad(BGMSource.gameObject);
-        ChangeBGM(Resources.Load<AudioClip>("C:/Users/195712/Documents/Platformer_Arussell/Assets/Resources/Bgm"));
+        ChangeBGM(Resources.Load<AudioClip>("C:/Users/195712/Documents/Platformer_Arussell/Assets/Resources/Bgm2"));
     }
     public void PlayOneShot(SoundEffect sound,float volumescale = 1)
     {
@@ -43,5 +44,7 @@ public class AudioManager
         BGMSource.clip = clip;
         BGMSource.Play();
     }
+
+
 }
 
