@@ -14,6 +14,16 @@ public class Player_Scrpt : MonoBehaviour
     bool Jumpability = true;
     Vector3 velocity = new Vector3(0, 0, 0);
     Rigidbody2D ourbody;
+    Animator animatior;
+    private SpriteRenderer spriteRenderer;
+    public Sprite StandingMan;
+    public Sprite StandingMan_1;
+    public Sprite StandingMan_2;
+    public Sprite StandingMan_3;
+    public Sprite StandingMan_4;
+    public Sprite StandingMan_5;
+    public Sprite StandingMan_6;
+    public Sprite StandingMan_7;
     // Use this for initialization
     void Start()
     {
@@ -38,6 +48,7 @@ public class Player_Scrpt : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             velocity += Vector3.right * speed * Time.deltaTime;
+            ChangeTheSprite();
         }
         if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
         {
@@ -69,6 +80,44 @@ public class Player_Scrpt : MonoBehaviour
     }
     private void Gameover()
     {
-     
+
+    }
+    void ChangeTheSprite()
+    {
+        if (spriteRenderer.sprite == StandingMan)
+        {
+            for (int i = 0; i < 1; i++)
+            {
+                spriteRenderer.sprite = StandingMan_2;
+            }
+            for (int d = 0; d < 1; d++)
+            {
+                spriteRenderer.sprite = StandingMan_3;
+            }
+            for (int i = 0; i < 1; i++)
+            {
+                spriteRenderer.sprite = StandingMan_1;
+            }
+            for (int a = 0; a < 1; a++)
+            {
+                spriteRenderer.sprite = StandingMan_4;
+            }
+            for (int i = 0; i < 1; i++)
+            {
+                spriteRenderer.sprite = StandingMan_5;
+            }
+            for (int i = 0; i < 1; i++)
+            {
+                spriteRenderer.sprite = StandingMan_6;
+            }
+            for (int i = 0; i < 1; i++)
+            {
+                spriteRenderer.sprite = StandingMan_7;
+            }
+        }
+        else
+        {
+            spriteRenderer.sprite = StandingMan;
+        }
     }
 }

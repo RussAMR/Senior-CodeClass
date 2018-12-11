@@ -9,43 +9,52 @@ namespace Character_Creation_Save_Load
 {
     class Program
     {
+
+        static List<Character> characters = new List<Character>();
         static void Main(string[] args)
         {
             int userinput;
-            List<Character> character = new List<Character> { };
+            string path = AppDomain.CurrentDomain.BaseDirectory + @"Characters";
             do
             {
                 userinput = Menu();
                 if (userinput == 1)
                 {
-                    character.Add(CharacterCreate());
+                    characters.Add(CharacterCreate());
                 }
                 if (userinput == 2)
                 {
-                    Character charactor = new Character);
+                    Character charactor = new Character();
+                    string original = null;
+                    bool found = false;
                     Console.WriteLine("What chracter would you like to change?");
-                    string hold = Console.ReadLine();
-                    for (int i = 0; i < character.Count; i++)
+                    string search = Console.ReadLine();
+                    for (int i = 0; i < characters.Count; i++)
                     {
-                        if (character.name[i] = hold)
+                        if (characters[i].Name == search)
                         {
-
+                            original = characters[i].Name;
+                            charactor = characters[i];
+                            found = true;
                         }
 
                     }
-                    CharacterStatChanger();
+                    if (found)
+                    {
+                        Character newCharacter = CharacterStatChanger(charactor);
+                    }
                 }
                 if (userinput == 3)
                 {
-                    LoadCharacter(CharacterCreate());
+                    LoadCharacter(characters[0]);
                 }
                 if (userinput == 4)
                 {
-                    DeleteCharacter(CharacterCreate());
+                    DeleteCharacter(characters[0]);
                 }
                 if (userinput == 5)
                 {
-                    SaveCharacter(CharacterCreate());
+                    SaveCharacter(characters[0]);
                 }
 
             } while (userinput != 0);
