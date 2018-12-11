@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class Enemy : MonoBehaviour
 {
 
-    public float speed = 0.5f;
+    public float speed = 0.25f;
     public Transform Player;
 
     // Use this for initialization
