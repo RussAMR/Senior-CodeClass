@@ -36,9 +36,12 @@ public class Enemy : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-        if (collision.collider.tag == "Ball")
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Ball")
         {
-            Destroy(gameObject); //Deletes the Enemy
+            Destroy(gameObject);
         }
     }
 }
