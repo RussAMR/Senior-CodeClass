@@ -16,14 +16,15 @@ public class AudioManager
     static AudioManager instance;
     private Dictionary<SoundEffect, AudioClip> SoundEffects
     { get; set; }
-    private AudioSource soundEffectSource
+    public AudioSource soundEffectSource
     { get; set; }
-    private AudioSource BGMSource
+    public AudioSource BGMSource
     { get; set; }
     public static AudioManager Instance
     { get { return instance ?? (instance = new AudioManager());  } }
     private AudioManager()
     {
+
         SoundEffects = Resources.LoadAll<AudioClip>("")
             .ToDictionary(t => (SoundEffect)Enum.Parse(typeof(SoundEffect), t.name, true));
         soundEffectSource = new GameObject("SoundEffectSource", typeof(AudioSource)).GetComponent<AudioSource>();
