@@ -1,0 +1,7 @@
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Palindrome Tester\Palindrome Tester\bin\Debug\Palindrome Tester.exe.config
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Palindrome Tester\Palindrome Tester\bin\Debug\Palindrome Tester.exe
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Palindrome Tester\Palindrome Tester\bin\Debug\Palindrome Tester.pdb
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Palindrome Tester\Palindrome Tester\obj\Debug\Palindrome Tester.csprojAssemblyReference.cache
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Palindrome Tester\Palindrome Tester\obj\Debug\Palindrome Tester.csproj.CoreCompileInputs.cache
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Palindrome Tester\Palindrome Tester\obj\Debug\Palindrome Tester.exe
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Palindrome Tester\Palindrome Tester\obj\Debug\Palindrome Tester.pdb

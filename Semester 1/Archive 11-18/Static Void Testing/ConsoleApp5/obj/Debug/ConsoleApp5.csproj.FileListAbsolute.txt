@@ -1,0 +1,7 @@
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Static Void Testing\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Static Void Testing\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Static Void Testing\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Static Void Testing\ConsoleApp5\obj\Debug\ConsoleApp5.csprojAssemblyReference.cache
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Static Void Testing\ConsoleApp5\obj\Debug\ConsoleApp5.csproj.CoreCompileInputs.cache
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Static Void Testing\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Static Void Testing\ConsoleApp5\obj\Debug\ConsoleApp5.pdb

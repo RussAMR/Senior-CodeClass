@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4c0f606d814e7b34d99d711e79bb380b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - StandingMan: {fileID: 21300000, guid: 51d6f85e11255b944b053c6941148c5e, type: 3}
+  - StandingMan_1: {fileID: 21300000, guid: 7be42f0ee6a0e754692eba993d5e12b5, type: 3}
+  - StandingMan_2: {fileID: 21300000, guid: a9580549a585dd64087ca47c7fb17cd4, type: 3}
+  - StandingMan_3: {fileID: 21300000, guid: 6ab6fb538154eaa47ad4b678bf5a5ebf, type: 3}
+  - StandingMan_4: {fileID: 21300000, guid: 4379bb2b9b10e4f448779b51fdd5c512, type: 3}
+  - StandingMan_5: {fileID: 21300000, guid: 0caccb38e2be8ab4c893d53b26f41dfe, type: 3}
+  - StandingMan_6: {fileID: 21300000, guid: 51d6f85e11255b944b053c6941148c5e, type: 3}
+  - StandingMan_7: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,7 @@
+C:\Users\195712\source\repos\Hangman_AR2\Hangman_AR2\bin\Debug\Hangman_AR2.exe.config
+C:\Users\195712\source\repos\Hangman_AR2\Hangman_AR2\bin\Debug\Hangman_AR2.exe
+C:\Users\195712\source\repos\Hangman_AR2\Hangman_AR2\bin\Debug\Hangman_AR2.pdb
+C:\Users\195712\source\repos\Hangman_AR2\Hangman_AR2\obj\Debug\Hangman_AR2.csprojAssemblyReference.cache
+C:\Users\195712\source\repos\Hangman_AR2\Hangman_AR2\obj\Debug\Hangman_AR2.csproj.CoreCompileInputs.cache
+C:\Users\195712\source\repos\Hangman_AR2\Hangman_AR2\obj\Debug\Hangman_AR2.exe
+C:\Users\195712\source\repos\Hangman_AR2\Hangman_AR2\obj\Debug\Hangman_AR2.pdb
