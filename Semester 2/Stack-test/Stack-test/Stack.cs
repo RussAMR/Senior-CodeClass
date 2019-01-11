@@ -19,7 +19,11 @@ namespace Stack_test
         {
             Holder.Add(val);
         }
-        //pop
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public int Pop()
         {
             if (Holder.Count > 0)
