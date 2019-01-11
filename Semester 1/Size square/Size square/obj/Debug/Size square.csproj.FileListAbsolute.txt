@@ -1,7 +1,0 @@
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Size square\Size square\bin\Debug\Size square.exe.config
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Size square\Size square\bin\Debug\Size square.exe
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Size square\Size square\bin\Debug\Size square.pdb
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Size square\Size square\obj\Debug\Size square.csproj.CoreCompileInputs.cache
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Size square\Size square\obj\Debug\Size square.exe
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Size square\Size square\obj\Debug\Size square.pdb
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Size square\Size square\obj\Debug\Size square.csprojAssemblyReference.cache

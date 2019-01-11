@@ -1,7 +1,0 @@
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Palindrome\ARussell_Palindrome\bin\Debug\ARussell_Palindrome.exe.config
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Palindrome\ARussell_Palindrome\bin\Debug\ARussell_Palindrome.exe
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Palindrome\ARussell_Palindrome\bin\Debug\ARussell_Palindrome.pdb
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Palindrome\ARussell_Palindrome\obj\Debug\ARussell_Palindrome.csprojAssemblyReference.cache
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Palindrome\ARussell_Palindrome\obj\Debug\ARussell_Palindrome.csproj.CoreCompileInputs.cache
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Palindrome\ARussell_Palindrome\obj\Debug\ARussell_Palindrome.exe
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Palindrome\ARussell_Palindrome\obj\Debug\ARussell_Palindrome.pdb

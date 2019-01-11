@@ -1,2 +1,0 @@
-C:\Users\195712\source\repos\AR_Watergun\AR_Watergun\obj\Debug\AR_Watergun.csprojAssemblyReference.cache
-C:\Users\195712\source\repos\AR_Watergun\AR_Watergun\obj\Debug\AR_Watergun.csproj.CoreCompileInputs.cache

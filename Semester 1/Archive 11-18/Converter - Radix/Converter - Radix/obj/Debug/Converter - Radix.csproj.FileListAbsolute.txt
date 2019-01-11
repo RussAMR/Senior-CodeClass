@@ -1,7 +1,0 @@
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Converter - Radix\Converter - Radix\bin\Debug\Converter - Radix.exe.config
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Converter - Radix\Converter - Radix\bin\Debug\Converter - Radix.exe
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Converter - Radix\Converter - Radix\bin\Debug\Converter - Radix.pdb
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Converter - Radix\Converter - Radix\obj\Debug\Converter - Radix.csprojAssemblyReference.cache
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Converter - Radix\Converter - Radix\obj\Debug\Converter - Radix.csproj.CoreCompileInputs.cache
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Converter - Radix\Converter - Radix\obj\Debug\Converter - Radix.exe
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Converter - Radix\Converter - Radix\obj\Debug\Converter - Radix.pdb

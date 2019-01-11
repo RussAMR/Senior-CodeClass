@@ -1,7 +1,0 @@
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Ceazer_Cypher\Ceazer_Cypher\bin\Debug\Ceazer_Cypher.exe.config
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Ceazer_Cypher\Ceazer_Cypher\bin\Debug\Ceazer_Cypher.exe
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Ceazer_Cypher\Ceazer_Cypher\bin\Debug\Ceazer_Cypher.pdb
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Ceazer_Cypher\Ceazer_Cypher\obj\Debug\Ceazer_Cypher.csprojAssemblyReference.cache
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Ceazer_Cypher\Ceazer_Cypher\obj\Debug\Ceazer_Cypher.csproj.CoreCompileInputs.cache
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Ceazer_Cypher\Ceazer_Cypher\obj\Debug\Ceazer_Cypher.exe
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\Ceazer_Cypher\Ceazer_Cypher\obj\Debug\Ceazer_Cypher.pdb

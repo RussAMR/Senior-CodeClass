@@ -1,7 +1,0 @@
-C:\Users\195712\source\repos\Hangman_ARussell\Hangman_ARussell\bin\Debug\Hangman_ARussell.exe.config
-C:\Users\195712\source\repos\Hangman_ARussell\Hangman_ARussell\bin\Debug\Hangman_ARussell.exe
-C:\Users\195712\source\repos\Hangman_ARussell\Hangman_ARussell\bin\Debug\Hangman_ARussell.pdb
-C:\Users\195712\source\repos\Hangman_ARussell\Hangman_ARussell\obj\Debug\Hangman_ARussell.csprojAssemblyReference.cache
-C:\Users\195712\source\repos\Hangman_ARussell\Hangman_ARussell\obj\Debug\Hangman_ARussell.csproj.CoreCompileInputs.cache
-C:\Users\195712\source\repos\Hangman_ARussell\Hangman_ARussell\obj\Debug\Hangman_ARussell.exe
-C:\Users\195712\source\repos\Hangman_ARussell\Hangman_ARussell\obj\Debug\Hangman_ARussell.pdb
