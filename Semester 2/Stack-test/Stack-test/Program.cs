@@ -23,6 +23,7 @@ namespace Stack_test
                 Console.WriteLine("***Type 2 to print the top value***");
                 Console.WriteLine("***Type 3 to remove a value and print it***");
                 Console.WriteLine("***Type 4 to print the whole stack***");
+                Console.WriteLine("***Type 5 to search for a variable***");
                 Uinput = int.Parse(Console.ReadLine());
                 if(Uinput == 1)
                 {
@@ -52,9 +53,10 @@ namespace Stack_test
                     Console.WriteLine("Press enter to continue");
                     Console.ReadLine();
                 }
-
-
-
+                if(Uinput == 5)
+                {
+                    
+                }                  
             } while (Uinput != 0);  
         }
     }

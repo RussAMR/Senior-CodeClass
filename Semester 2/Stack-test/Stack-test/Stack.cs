@@ -56,6 +56,25 @@ namespace Stack_test
                 Console.WriteLine(Holder[i] + ",");              
             }
         }
+
+        public List<int> Search(int val)
+        {
+            List<int> Positions = new List<int>();
+            if (Holder.Contains(val))
+            {
+                for (int i = 0; i < Holder.Count -1; i++)
+                {
+                    val = Holder[i];
+                    Positions.Add(val);
+                    Console.WriteLine("Holder Contains this variable at " + i +"The value is " + val);
+                }
+            }
+            else
+            {
+                Console.WriteLine("this variable isn't contained in the program");
+            }
+            return Positions;
+        }
     }
 
 }
