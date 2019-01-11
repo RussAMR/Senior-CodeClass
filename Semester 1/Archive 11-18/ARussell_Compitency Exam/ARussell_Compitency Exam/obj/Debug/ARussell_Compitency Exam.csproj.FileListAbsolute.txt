@@ -1,7 +1,0 @@
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Compitency Exam\ARussell_Compitency Exam\bin\Debug\ARussell_Compitency Exam.exe.config
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Compitency Exam\ARussell_Compitency Exam\bin\Debug\ARussell_Compitency Exam.exe
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Compitency Exam\ARussell_Compitency Exam\bin\Debug\ARussell_Compitency Exam.pdb
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Compitency Exam\ARussell_Compitency Exam\obj\Debug\ARussell_Compitency Exam.csprojAssemblyReference.cache
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Compitency Exam\ARussell_Compitency Exam\obj\Debug\ARussell_Compitency Exam.csproj.CoreCompileInputs.cache
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Compitency Exam\ARussell_Compitency Exam\obj\Debug\ARussell_Compitency Exam.exe
-C:\Users\195712\OneDrive - Academy District 20\Coding and Design Thinking\ARussell_Compitency Exam\ARussell_Compitency Exam\obj\Debug\ARussell_Compitency Exam.pdb

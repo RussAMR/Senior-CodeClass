@@ -1,7 +1,0 @@
-C:\Users\195712\Documents\Senior-CodeClass\Archive 11-2-18\Character_Creation_Save_Load\Character_Creation_Save_Load\bin\Debug\Character_Creation_Save_Load.exe.config
-C:\Users\195712\Documents\Senior-CodeClass\Archive 11-2-18\Character_Creation_Save_Load\Character_Creation_Save_Load\bin\Debug\Character_Creation_Save_Load.exe
-C:\Users\195712\Documents\Senior-CodeClass\Archive 11-2-18\Character_Creation_Save_Load\Character_Creation_Save_Load\bin\Debug\Character_Creation_Save_Load.pdb
-C:\Users\195712\Documents\Senior-CodeClass\Archive 11-2-18\Character_Creation_Save_Load\Character_Creation_Save_Load\obj\Debug\Character_Creation_Save_Load.csprojAssemblyReference.cache
-C:\Users\195712\Documents\Senior-CodeClass\Archive 11-2-18\Character_Creation_Save_Load\Character_Creation_Save_Load\obj\Debug\Character_Creation_Save_Load.csproj.CoreCompileInputs.cache
-C:\Users\195712\Documents\Senior-CodeClass\Archive 11-2-18\Character_Creation_Save_Load\Character_Creation_Save_Load\obj\Debug\Character_Creation_Save_Load.exe
-C:\Users\195712\Documents\Senior-CodeClass\Archive 11-2-18\Character_Creation_Save_Load\Character_Creation_Save_Load\obj\Debug\Character_Creation_Save_Load.pdb
