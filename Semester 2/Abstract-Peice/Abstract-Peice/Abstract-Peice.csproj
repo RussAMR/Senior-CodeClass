@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainQuest.cs" />
+    <Compile Include="QuestClasses\DLC.cs" />
+    <Compile Include="QuestClasses\MainQuest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Quest.cs" />
+    <Compile Include="QuestClasses\Quest.cs" />
+    <Compile Include="QuestClasses\SideQuest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
