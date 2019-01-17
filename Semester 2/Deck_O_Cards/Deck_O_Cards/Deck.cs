@@ -9,6 +9,7 @@ namespace Deck_O_Cards
     class Deck
     {
         List<Cards> deck = new List<Cards>();
+        List<Cards> Discard_Pile = new List<Cards>();
         public Deck()
         {
 
@@ -46,6 +47,30 @@ namespace Deck_O_Cards
                 return deck[0];
             }
         }
+        public void Discard(Cards C)
+        {
+
+            Cards myhold;
+            myhold = deck.Last();
+            Discard_Pile.Add(myhold);
+            deck.RemoveAt(deck.Count());          
+        }
+        public void PrintDeck()
+        {
+            for (int i = 0; i < deck.Count - 1; i++)
+            {
+                Console.WriteLine(deck[i]);
+            }
+        }
+        public void PrintDisc()
+        {
+            for (int i = 0; i < Discard_Pile.Count - 1; i++)
+            {
+                Console.WriteLine(Discard_Pile[i]);
+            }
+        }
+           
+            
     }
 
 }
