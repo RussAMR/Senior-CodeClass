@@ -34,7 +34,7 @@ public class AudioManager
         BGMSource.volume = .5f;
         BGMSource.loop = true;
         Object.DontDestroyOnLoad(BGMSource.gameObject);
-        ChangeBGM(Resources.Load<AudioClip>("C:/Users/195712/Documents/Platformer_Arussell/Assets/Resources/Bgm2"));
+        ChangeBGM(Resources.Load<AudioClip>("C:/Users/195712/Documents/Platformer_Arussell/Assets/Resources/Bgm"));
     }
     public void PlayOneShot(SoundEffect sound,float volumescale = 1)
     {

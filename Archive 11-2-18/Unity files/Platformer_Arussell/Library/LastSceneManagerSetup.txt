@@ -1,0 +1,4 @@
+sceneSetups:
+- path: D:/Documents/Senior-CodeClass-master/Semester 1/Archive 11-2-18/Unity files/Platformer_Arussell/Assets/Scenes/SampleScene.unity
+  isLoaded: 1
+  isActive: 1
