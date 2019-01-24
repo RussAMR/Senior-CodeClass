@@ -8,8 +8,8 @@ namespace Deck_O_Cards
 {
     class Deck
     {
-        List<Cards> deck = new List<Cards>();
-        List<Cards> Discard_Pile = new List<Cards>();
+        List<Card> deck = new List<Card>();
+        List<Card> Discard_Pile = new List<Card>();
         public Deck()
         {
 
@@ -17,7 +17,7 @@ namespace Deck_O_Cards
             {
                 foreach (var suit in Enum.GetValues(typeof(Suit)))
                 {
-                    deck.Add(new Cards((Face)face, (Suit)suit));
+                    deck.Add(new Card((Face)face, (Suit)suit));
                 }
             }
         }
@@ -27,18 +27,21 @@ namespace Deck_O_Cards
             {
                 Random rand = new Random();
                 int Rholder = rand.Next(0 - 51);
-                Cards holder = deck[Rholder];
+                Card holder = deck[Rholder];
                 deck.RemoveAt(Rholder);
                 deck.Add(holder);
+                Discard_Pile.Clear();
             }
         }
-        public Cards Draw()
+        public Card Draw()
         {
             if (deck.Count > 0)
             {
-                Cards myint;
+                Card myint;
                 myint = deck.Last();
                 deck.RemoveAt(deck.Count() - 1);
+                Console.WriteLine("You drew the");
+                myint.Print();
                 return myint;
             }
             else
@@ -47,30 +50,31 @@ namespace Deck_O_Cards
                 return deck[0];
             }
         }
-        public void Discard(Cards C)
+        public void Discard()
         {
 
-            Cards myhold;
+            Card myhold;
             myhold = deck.Last();
             Discard_Pile.Add(myhold);
-            deck.RemoveAt(deck.Count());          
+            deck.RemoveAt(deck.Count());
         }
         public void PrintDeck()
         {
-            for (int i = 0; i < deck.Count - 1; i++)
+            for (int i = 0; i < deck.Count; i++)
             {
-                Console.WriteLine(deck[i]);
+                deck[i].Print();
             }
         }
         public void PrintDisc()
         {
-            for (int i = 0; i < Discard_Pile.Count - 1; i++)
+            for (int i = 0; i < Discard_Pile.Count; i++)
             {
-                Console.WriteLine(Discard_Pile[i]);
+
+                Discard_Pile[i].Print();
             }
         }
-           
-            
+
+
     }
 
 }

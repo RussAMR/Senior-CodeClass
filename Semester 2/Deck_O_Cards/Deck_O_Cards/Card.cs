@@ -29,29 +29,22 @@ namespace Deck_O_Cards
         K,
         A
     }
-    class Cards
+    class Card
     {
 
         public Face face;
         public Suit suit;
-        public Cards(Face face, Suit suit)
+        public Card(Face face, Suit suit)
         {
             this.face = face;
             this.suit = suit;
-            
-        }
-        public void Print(Face face, Suit suit)
-        {
-            for (int i = 0; i < 3; i++)
-            {
-                for (int d = 0; d < 11; d++)
-                    {
-                    Console.WriteLine("____________________");
-                    Console.WriteLine("|" + Face[d] + Suit[i] + "|");
-                    Console.WriteLine("____________________");
-                }
-            }
 
+        }
+        public void Print()
+        {
+            Console.WriteLine("____________________");
+            Console.WriteLine("|" + face + " " + suit + "|");
+            Console.WriteLine("____________________");
         }
     }
 
