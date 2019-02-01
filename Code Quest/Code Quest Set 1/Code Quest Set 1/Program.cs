@@ -11,16 +11,27 @@ namespace Code_Quest_Set_1
     {
         static void Main(string[] args)
         {
-            Grades grades = new Grades();
-            List<Grades> CallItWhatever = new List<Grades>();
-            int myint;
             string path = AppDomain.CurrentDomain.BaseDirectory + (@"Prob01.in.txt");
             using (StreamReader sw = new StreamReader(path))
             {
-                Grades.grades1 = sw.ReadLine();
+                sw.ReadLine();
+                while (sw.Peek() > -1)
+                {
+                    string x = sw.ReadLine();
+                    if(int.Parse(x) >= 70)
+                    {
+                        Console.WriteLine("Pass");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Fail");
+
+                    }
+                }
+
             }
 
-            
+            Console.ReadKey();
 
         }
     }
