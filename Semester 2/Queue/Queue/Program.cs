@@ -7,15 +7,18 @@ using System.Threading.Tasks;
 namespace Queue
 {
 
-    class Program<T> :IEmptyable,IPrintable,ICountable where T : IComparable , IPrintable
+    class Program<Currencies> :IEmptyable,IPrintable,ICountable where Currencies : IComparable , IPrintable
     {
 
         static void Main(string[] args)
         {
-            QueueClass myQueue = new QueueClass();
+            QueueClass<Currencies> myQueue = new QueueClass<Currencies>();
             int myInt;
             int Input;
-
+            for (int i = 0; i < 10; i++)
+            {
+               
+            }
 
             do
             {
@@ -23,7 +26,7 @@ namespace Queue
                 Console.WriteLine("1. Add something to the queue");
                 Console.WriteLine("2. Remove the first element of the queue");
                 Console.WriteLine("3. return the first element of the queue");
-                Console.WriteLine("4. Search for dat thing");
+                Console.WriteLine("4. Search for the element");
                 Console.WriteLine("5. Exit this thing.");
                 Console.WriteLine();
                 Input = int.Parse(Console.ReadLine());
@@ -74,7 +77,7 @@ namespace Queue
 
         public void Print()
         {
-            T.Print();
+            Currencies.Print();
         }
     }
 }
