@@ -16,12 +16,8 @@ namespace Algorithm_Practice
             int myint;
             using (StreamReader sw =  new StreamReader(path))
             {
-                myint = int.Parse(sw.ReadLine());
+                myint = sw.ReadLine()[0];
                 
-            }
-            if(myint == 31)
-            {
-                Console.WriteLine("Quarters");
             }
         }
     }
