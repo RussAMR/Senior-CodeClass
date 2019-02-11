@@ -30,7 +30,7 @@ namespace Algorithm_Practice
                         line = line.Substring(5);
                         total += float.Parse(line) * .10f;
                     }
-                    if (line.Contains("NICKLE"))
+                    if (line.Contains("NICKEL"))
                     {
                         line = line.Substring(7);
                         total += float.Parse(line) * .05f;
@@ -46,10 +46,9 @@ namespace Algorithm_Practice
                         total += float.Parse(line) * .01f;
                     }
                 }
-                Console.WriteLine("$" +total + "And");
+                Console.WriteLine("$" + total + " USD");
                 Console.ReadLine();
             }
-
 
         }
 

@@ -16,7 +16,7 @@ namespace Cezear_Cypher2._1
             do
             {
                 Console.WriteLine("************************");
-                Console.WriteLine("#1 Convert phrase to secondary");
+                Console.WriteLine("#1 Convert phrase to nums");
                 Console.WriteLine("#2 Convert phrase back to english");
                 Console.WriteLine("#0 Exit");
                 Console.WriteLine("************************");
