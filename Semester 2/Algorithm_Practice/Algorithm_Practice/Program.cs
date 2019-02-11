@@ -46,7 +46,7 @@ namespace Algorithm_Practice
                         total += float.Parse(line) * .01f;
                     }
                 }
-                Console.WriteLine(total);
+                Console.WriteLine("$" +total + "And");
                 Console.ReadLine();
             }
 

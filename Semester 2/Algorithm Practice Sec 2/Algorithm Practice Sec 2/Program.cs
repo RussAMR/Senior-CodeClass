@@ -11,6 +11,8 @@ namespace Algorithm_Practice_Sec_2
     {
         static void Main(string[] args)
         {
+            int counter = 0;
+            
             string path = AppDomain.CurrentDomain.BaseDirectory + "Prob02.in_.txt";
             using (StreamReader sr = new StreamReader(path))
             {
@@ -18,6 +20,17 @@ namespace Algorithm_Practice_Sec_2
 
                 while ((line = sr.ReadLine()) != null)
                 {
+                    for (int i = 0; i < 6; i++)
+                    {
+                        if (line[i] > line[i + 1])
+                        {
+                            counter++;
+                        }
+                        else if(line[i] < line [i + 1])
+                        {
+                            counter--;
+                        }
+                    }
                     Console.WriteLine(line);
                 }
             }
