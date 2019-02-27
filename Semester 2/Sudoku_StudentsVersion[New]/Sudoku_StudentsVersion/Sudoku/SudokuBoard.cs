@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 
 namespace Sudoku
 {
@@ -49,11 +48,7 @@ namespace Sudoku
         /// <param name="fileName">Name of the file you want to load</param>
         public SudokuBoard(string fileName)
         {
-            fileName = AppDomain.CurrentDomain.BaseDirectory + "HardPuzzles.txt";
-            using (StreamReader sr = new StreamReader(fileName))
-            {
-                string holder = sr.ReadLine();
-            }
+            throw new NotImplementedException();
         }
 
 
@@ -78,15 +73,29 @@ namespace Sudoku
             {
                 for (int d = 0; d < Board.GetLength(1); d++)
                 {
-                    if(Board[i,d] == 0)
+                    if (Board[i, d] == 0)
                     {
-                        
-                        
+                        isdone = false;
+
                     }
                 }
             }
-            return isdone;
+
             //Check all columns in the board, make sure they contain ONLY values 1-9. No duplicates, no exclusions
+            for (int i = 0; i < Board.GetLength(0); i++)
+            {
+                for (int d = 0; d < Board.GetLength(1); d++)
+                {
+                    if(Board[i,d] == 1-9)
+                    {
+                        isdone = true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
             
             //Check all rows in the board, make sure they contain ONLY values 1-9. No duplicates, no exclusions
 
@@ -132,7 +141,7 @@ namespace Sudoku
         /// </summary>
         public void PrintBoard()
         {
-            Console.WriteLine("Y  1  2  3   4  5  6   7  8  9");
+            Console.WriteLine("Y  0  1  2   3  4  5   6  7  8");
             Console.WriteLine("X  ---------------------------");
             for (int row = 0; row < 9; row++)
             {
@@ -140,7 +149,7 @@ namespace Sudoku
                 {
                     Console.WriteLine("  ---------+---------+---------");
                 }
-                Console.Write(row + 1 + "|");
+                Console.Write(row + "|");
                 for(int col = 0; col < 9; col++)
                 {
                     if (col % 3 == 0 && col != 0)
