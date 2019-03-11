@@ -57,6 +57,10 @@ namespace Sudoku
         }
 
 
+        public SudokuBoard(SudokuBoard curboard)
+        {
+            Array.Copy(curboard.Board, this.Board, this.Board.Length);
+        }
         /// <summary>
         /// Checks the entire board to see if it is valid or not.
         /// First, if ANY element in the board is empty (0) then the board is invalid.
@@ -73,24 +77,24 @@ namespace Sudoku
         /// </returns>
         public bool VerifyBoard()
         {
-            bool isdone = true;
+            //bool isdone = true;
             for (int i = 0; i < Board.GetLength(0); i++)
             {
                 for (int d = 0; d < Board.GetLength(1); d++)
                 {
-                    if(Board[i,d] == 0)
+                    if (Board[i,d] == 0 ) 
                     {
-                        
-                        
+                        //isdone = false;
                     }
                 }
             }
-            return isdone;
+
             //Check all columns in the board, make sure they contain ONLY values 1-9. No duplicates, no exclusions
-            
+
             //Check all rows in the board, make sure they contain ONLY values 1-9. No duplicates, no exclusions
 
             //Check all boxes in the board, make sure they contain ONLY values 1-9. No duplicates, no exclusions
+            return false;
         }
 
         /// <summary>
