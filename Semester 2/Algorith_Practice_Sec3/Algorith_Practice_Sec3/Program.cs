@@ -29,7 +29,7 @@ namespace Algorith_Practice_Sec3
             Userinput = Console.ReadLine();
             for (int I = 0; I <= Userinput.Length - 1; I++)
             {
-                PreCypher = Userinput[I];
+                PreCypher = Userinput[I]; n
                 Cypher.Add(PreCypher - Shiftnum);
             }
             for (int I = 0; I <= Userinput.Length - 1; I++)
