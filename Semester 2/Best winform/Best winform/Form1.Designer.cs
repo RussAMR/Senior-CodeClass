@@ -60,6 +60,7 @@
             // 
             // DateTimePicker
             // 
+            this.DateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.DateTimePicker.Location = new System.Drawing.Point(588, 418);
             this.DateTimePicker.Name = "DateTimePicker";
             this.DateTimePicker.Size = new System.Drawing.Size(200, 20);

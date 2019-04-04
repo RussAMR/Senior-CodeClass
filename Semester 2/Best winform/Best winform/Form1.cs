@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace Best_winform
 {
@@ -17,11 +18,17 @@ namespace Best_winform
             InitializeComponent();
             Something.MouseEnter += (o, e) => Changecolor(Color.Red);
             Something.MouseLeave += (o, e) => Changecolor(Color.DeepPink);
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(Checkbox_Failsafe.Checked && DateTimePicker.Value < DateTime.Now)
+            DateTime result;
+            string format = "ddd dd MMM yyyy h:mm tt";
+            string dateString = "Mon 1 Jan 1990 2:17 PM";
+            CultureInfo provider = CultureInfo.InvariantCulture;
+            result = DateTime.ParseExact(dateString, format, provider);
+            if (Checkbox_Failsafe.Checked && DateTimePicker.Value == result)
             {
                 Environment.Exit(0);
             }
