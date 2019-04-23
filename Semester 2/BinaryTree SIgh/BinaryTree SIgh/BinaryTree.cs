@@ -51,7 +51,7 @@ namespace BinaryTree_SIgh
                 Insert(Cur.LeftChild, Val);
             }
         }
-        public bool Remove(char val)
+        public void Remove(char val)
         {
             throw new NotImplementedException();
         }
@@ -73,11 +73,18 @@ namespace BinaryTree_SIgh
         }
         public bool Search(Node val, char val2)
         {
-            if(Root == val)
+            for (int i = 0; i < Count; i++)
             {
-                return true;
+                if (Root == val)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
-            else if(Root == )
+
         }
         public void PreOrderPrint()
         {
