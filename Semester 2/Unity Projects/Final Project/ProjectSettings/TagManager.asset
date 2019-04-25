@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Start Button
   - Start
+  - Text
   layers:
   - Default
   - TransparentFX
