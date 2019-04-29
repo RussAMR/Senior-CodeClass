@@ -26,12 +26,12 @@ public class TextShade : MonoBehaviour
 
         if (timer >= 4)
         {
-            if(counter < 2)
+            if(counter < text.Count)
             {
                 textbox.text = text[counter];
                 counter++;
             }
-            else if(counter == 2)
+            else if(counter == text.Count + 1)
             {
                 textbox.text = hold;
                 counter++;

@@ -29,11 +29,5 @@ public class Movement : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.collider.tag == "Start")
-        {
-            SceneManager.LoadScene("LV1");
-        }
-    }
+
 }

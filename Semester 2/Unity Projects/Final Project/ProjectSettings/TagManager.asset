@@ -7,6 +7,7 @@ TagManager:
   - Start Button
   - Start
   - Text
+  - End
   layers:
   - Default
   - TransparentFX
