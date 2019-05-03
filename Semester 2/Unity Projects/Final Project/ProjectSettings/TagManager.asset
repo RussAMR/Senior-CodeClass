@@ -8,6 +8,7 @@ TagManager:
   - Start
   - Text
   - End
+  - Tele
   layers:
   - Default
   - TransparentFX

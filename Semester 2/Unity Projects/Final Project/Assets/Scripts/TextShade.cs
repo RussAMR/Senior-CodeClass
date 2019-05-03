@@ -11,7 +11,7 @@ public class TextShade : MonoBehaviour
     string hold = " ";
     GameObject Textmeshpro;
     public TextMeshProUGUI textbox;
-    List<string> text = new List<string>() {"Use WASD to move" , "Hello welcome to ball game!", };
+    List<string> text = new List<string>() {"Use WASD to move" , "Hello welcome Rollercity,","Hunt for the green pellets to solve the puzzle","They'll open new paths for you to take.", "This will take you to the menu screen thank you for playing." };
     // Start is called before the first frame update
     void Start()
     {

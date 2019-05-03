@@ -29,5 +29,13 @@ public class Movement : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.collider.tag == "Tele")
+        {
+                transform.position = new Vector3(0, .62f, 0);//(where you want to teleport)
+            
+        }
+    }
 
 }

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Finishline : MonoBehaviour
 {
+    float counter;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +19,17 @@ public class Finishline : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("asdwer");
+        int buildIndex = SceneManager.GetActiveScene().buildIndex + 1;
         if (collision.collider.tag == "Player")
         {
-            SceneManager.LoadScene("SampleScene");
+            do
+            {
+                counter++;
+                counter = counter * Time.deltaTime;
+            } while (counter >= 5);
+                SceneManager.LoadScene(buildIndex);
+            
+
         }
     }
 }
