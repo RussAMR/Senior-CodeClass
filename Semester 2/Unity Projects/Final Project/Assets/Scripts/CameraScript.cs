@@ -6,6 +6,7 @@ public class CameraScript : MonoBehaviour
 {
     public GameObject player;
     private Vector3 offset;
+    public GameObject Camera;
     // Start is called before the first frame update
     void Start()
     {

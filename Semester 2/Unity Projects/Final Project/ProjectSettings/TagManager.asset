@@ -4,11 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Start Button
-  - Start
   - Text
   - End
   - Tele
+  - Starter
+  - Tutorial
+  - Special
   layers:
   - Default
   - TransparentFX

@@ -6,6 +6,9 @@ public class Pelletscrpt : MonoBehaviour
 {
     [SerializeField]
     string text;
+    [SerializeField]
+    string findme;
+    GameObject hiddenblock;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +24,22 @@ public class Pelletscrpt : MonoBehaviour
     {
         if (collision.collider.tag == "Player")
         {
-            Destroy(GameObject.Find(text));
-            Destroy(gameObject);
+            if (GameObject.Find(findme) == true)
+            {
+                Debug.Log("Am I active!");
+                GameObject.Find(findme).GetComponent<MeshRenderer>().enabled = true;
+                Destroy(GameObject.Find(text));
+                Destroy(gameObject);
+            }
+            else
+            {
+                Debug.Log("Active?");
+                Destroy(GameObject.Find(text));
+                Destroy(gameObject);
+            }
+
+
         }
+        
     }
 }
