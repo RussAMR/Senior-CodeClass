@@ -1,0 +1,7 @@
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\LinQ test\LinQ test\bin\Debug\LinQ test.exe.config
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\LinQ test\LinQ test\bin\Debug\LinQ test.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\LinQ test\LinQ test\bin\Debug\LinQ test.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\LinQ test\LinQ test\obj\Debug\LinQ test.csprojAssemblyReference.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\LinQ test\LinQ test\obj\Debug\LinQ test.csproj.CoreCompileInputs.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\LinQ test\LinQ test\obj\Debug\LinQ test.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\LinQ test\LinQ test\obj\Debug\LinQ test.pdb

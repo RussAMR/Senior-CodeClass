@@ -1,0 +1,7 @@
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Abstract-Peice\Abstract-Peice\bin\Debug\Abstract-Peice.exe.config
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Abstract-Peice\Abstract-Peice\bin\Debug\Abstract-Peice.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Abstract-Peice\Abstract-Peice\bin\Debug\Abstract-Peice.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Abstract-Peice\Abstract-Peice\obj\Debug\Abstract-Peice.csprojAssemblyReference.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Abstract-Peice\Abstract-Peice\obj\Debug\Abstract-Peice.csproj.CoreCompileInputs.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Abstract-Peice\Abstract-Peice\obj\Debug\Abstract-Peice.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Abstract-Peice\Abstract-Peice\obj\Debug\Abstract-Peice.pdb

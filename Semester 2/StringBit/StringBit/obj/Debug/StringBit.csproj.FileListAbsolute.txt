@@ -1,0 +1,7 @@
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\StringBit\StringBit\obj\Debug\StringBit.csprojAssemblyReference.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\StringBit\StringBit\obj\Debug\StringBit.csproj.CoreCompileInputs.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\StringBit\StringBit\bin\Debug\StringBit.exe.config
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\StringBit\StringBit\bin\Debug\StringBit.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\StringBit\StringBit\bin\Debug\StringBit.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\StringBit\StringBit\obj\Debug\StringBit.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\StringBit\StringBit\obj\Debug\StringBit.pdb

@@ -1,0 +1,7 @@
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Code Quest Set 1\Code Quest Set 1\obj\Debug\Code Quest Set 1.csprojAssemblyReference.cache
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Code Quest Set 1\Code Quest Set 1\obj\Debug\Code Quest Set 1.csproj.CoreCompileInputs.cache
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Code Quest Set 1\Code Quest Set 1\bin\Debug\Code Quest Set 1.exe.config
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Code Quest Set 1\Code Quest Set 1\bin\Debug\Code Quest Set 1.exe
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Code Quest Set 1\Code Quest Set 1\bin\Debug\Code Quest Set 1.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Code Quest Set 1\Code Quest Set 1\obj\Debug\Code Quest Set 1.exe
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Code Quest Set 1\Code Quest Set 1\obj\Debug\Code Quest Set 1.pdb

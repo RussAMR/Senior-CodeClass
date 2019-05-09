@@ -1,0 +1,7 @@
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Palindrome code quest\Palindrome code quest\bin\Debug\Palindrome code quest.exe.config
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Palindrome code quest\Palindrome code quest\bin\Debug\Palindrome code quest.exe
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Palindrome code quest\Palindrome code quest\bin\Debug\Palindrome code quest.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Palindrome code quest\Palindrome code quest\obj\Debug\Palindrome code quest.csprojAssemblyReference.cache
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Palindrome code quest\Palindrome code quest\obj\Debug\Palindrome code quest.csproj.CoreCompileInputs.cache
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Palindrome code quest\Palindrome code quest\obj\Debug\Palindrome code quest.exe
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\Palindrome code quest\Palindrome code quest\obj\Debug\Palindrome code quest.pdb

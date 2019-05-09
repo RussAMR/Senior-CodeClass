@@ -1,0 +1,7 @@
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\AEIOU_Code Quest\AEIOU_Code Quest\bin\Debug\AEIOU_Code Quest.exe.config
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\AEIOU_Code Quest\AEIOU_Code Quest\bin\Debug\AEIOU_Code Quest.exe
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\AEIOU_Code Quest\AEIOU_Code Quest\bin\Debug\AEIOU_Code Quest.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\AEIOU_Code Quest\AEIOU_Code Quest\obj\Debug\AEIOU_Code Quest.csprojAssemblyReference.cache
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\AEIOU_Code Quest\AEIOU_Code Quest\obj\Debug\AEIOU_Code Quest.csproj.CoreCompileInputs.cache
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\AEIOU_Code Quest\AEIOU_Code Quest\obj\Debug\AEIOU_Code Quest.exe
+C:\Users\195712\Documents\Senior-CodeClass\Code Quest\AEIOU_Code Quest\AEIOU_Code Quest\obj\Debug\AEIOU_Code Quest.pdb

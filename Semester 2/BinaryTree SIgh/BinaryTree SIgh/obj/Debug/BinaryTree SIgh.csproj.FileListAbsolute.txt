@@ -1,0 +1,7 @@
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\BinaryTree SIgh\BinaryTree SIgh\bin\Debug\BinaryTree SIgh.exe.config
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\BinaryTree SIgh\BinaryTree SIgh\bin\Debug\BinaryTree SIgh.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\BinaryTree SIgh\BinaryTree SIgh\bin\Debug\BinaryTree SIgh.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\BinaryTree SIgh\BinaryTree SIgh\obj\Debug\BinaryTree SIgh.csprojAssemblyReference.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\BinaryTree SIgh\BinaryTree SIgh\obj\Debug\BinaryTree SIgh.csproj.CoreCompileInputs.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\BinaryTree SIgh\BinaryTree SIgh\obj\Debug\BinaryTree SIgh.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\BinaryTree SIgh\BinaryTree SIgh\obj\Debug\BinaryTree SIgh.pdb

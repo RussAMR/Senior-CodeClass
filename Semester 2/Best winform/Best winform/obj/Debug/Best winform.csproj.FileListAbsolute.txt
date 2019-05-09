@@ -1,0 +1,10 @@
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Best winform\Best winform\bin\Debug\Best winform.exe.config
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Best winform\Best winform\bin\Debug\Best winform.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Best winform\Best winform\bin\Debug\Best winform.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Best winform\Best winform\obj\Debug\Best winform.csprojAssemblyReference.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Best winform\Best winform\obj\Debug\Best_winform.Form1.resources
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Best winform\Best winform\obj\Debug\Best_winform.Properties.Resources.resources
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Best winform\Best winform\obj\Debug\Best winform.csproj.GenerateResource.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Best winform\Best winform\obj\Debug\Best winform.csproj.CoreCompileInputs.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Best winform\Best winform\obj\Debug\Best winform.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Best winform\Best winform\obj\Debug\Best winform.pdb

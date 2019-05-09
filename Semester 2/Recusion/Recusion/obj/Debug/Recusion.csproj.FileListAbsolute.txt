@@ -1,0 +1,7 @@
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Recusion\Recusion\bin\Debug\Recusion.exe.config
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Recusion\Recusion\bin\Debug\Recusion.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Recusion\Recusion\bin\Debug\Recusion.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Recusion\Recusion\obj\Debug\Recusion.csprojAssemblyReference.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Recusion\Recusion\obj\Debug\Recusion.csproj.CoreCompileInputs.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Recusion\Recusion\obj\Debug\Recusion.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Recusion\Recusion\obj\Debug\Recusion.pdb

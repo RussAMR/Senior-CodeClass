@@ -1,0 +1,6 @@
+C:\Users\195712\Documents\Senior-CodeClass\Semester 1\Archive 11-2-18\Tic Tac Toe\Tic Tac Toe\bin\Debug\Tic Tac Toe.exe.config
+C:\Users\195712\Documents\Senior-CodeClass\Semester 1\Archive 11-2-18\Tic Tac Toe\Tic Tac Toe\bin\Debug\Tic Tac Toe.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 1\Archive 11-2-18\Tic Tac Toe\Tic Tac Toe\bin\Debug\Tic Tac Toe.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Semester 1\Archive 11-2-18\Tic Tac Toe\Tic Tac Toe\obj\Debug\Tic Tac Toe.csproj.CoreCompileInputs.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 1\Archive 11-2-18\Tic Tac Toe\Tic Tac Toe\obj\Debug\Tic Tac Toe.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 1\Archive 11-2-18\Tic Tac Toe\Tic Tac Toe\obj\Debug\Tic Tac Toe.pdb

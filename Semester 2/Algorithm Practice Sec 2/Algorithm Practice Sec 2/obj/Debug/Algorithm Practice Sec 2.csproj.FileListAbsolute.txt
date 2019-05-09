@@ -1,0 +1,7 @@
+C:\Users\195712\source\repos\Algorithm Practice Sec 2\Algorithm Practice Sec 2\bin\Debug\Algorithm Practice Sec 2.exe.config
+C:\Users\195712\source\repos\Algorithm Practice Sec 2\Algorithm Practice Sec 2\bin\Debug\Algorithm Practice Sec 2.exe
+C:\Users\195712\source\repos\Algorithm Practice Sec 2\Algorithm Practice Sec 2\bin\Debug\Algorithm Practice Sec 2.pdb
+C:\Users\195712\source\repos\Algorithm Practice Sec 2\Algorithm Practice Sec 2\obj\Debug\Algorithm Practice Sec 2.csprojAssemblyReference.cache
+C:\Users\195712\source\repos\Algorithm Practice Sec 2\Algorithm Practice Sec 2\obj\Debug\Algorithm Practice Sec 2.csproj.CoreCompileInputs.cache
+C:\Users\195712\source\repos\Algorithm Practice Sec 2\Algorithm Practice Sec 2\obj\Debug\Algorithm Practice Sec 2.exe
+C:\Users\195712\source\repos\Algorithm Practice Sec 2\Algorithm Practice Sec 2\obj\Debug\Algorithm Practice Sec 2.pdb

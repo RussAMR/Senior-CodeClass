@@ -1,0 +1,7 @@
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Stack-test\Stack-test\bin\Debug\Stack-test.exe.config
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Stack-test\Stack-test\bin\Debug\Stack-test.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Stack-test\Stack-test\bin\Debug\Stack-test.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Stack-test\Stack-test\obj\Debug\Stack-test.csprojAssemblyReference.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Stack-test\Stack-test\obj\Debug\Stack-test.csproj.CoreCompileInputs.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Stack-test\Stack-test\obj\Debug\Stack-test.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Stack-test\Stack-test\obj\Debug\Stack-test.pdb

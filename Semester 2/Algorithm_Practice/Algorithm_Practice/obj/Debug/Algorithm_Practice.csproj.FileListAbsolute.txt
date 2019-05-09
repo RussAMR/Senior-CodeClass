@@ -1,0 +1,14 @@
+C:\Users\195712\source\repos\Algorithm_Practice\Algorithm_Practice\bin\Debug\Algorithm_Practice.exe.config
+C:\Users\195712\source\repos\Algorithm_Practice\Algorithm_Practice\bin\Debug\Algorithm_Practice.exe
+C:\Users\195712\source\repos\Algorithm_Practice\Algorithm_Practice\bin\Debug\Algorithm_Practice.pdb
+C:\Users\195712\source\repos\Algorithm_Practice\Algorithm_Practice\obj\Debug\Algorithm_Practice.csprojAssemblyReference.cache
+C:\Users\195712\source\repos\Algorithm_Practice\Algorithm_Practice\obj\Debug\Algorithm_Practice.csproj.CoreCompileInputs.cache
+C:\Users\195712\source\repos\Algorithm_Practice\Algorithm_Practice\obj\Debug\Algorithm_Practice.exe
+C:\Users\195712\source\repos\Algorithm_Practice\Algorithm_Practice\obj\Debug\Algorithm_Practice.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Algorithm_Practice\Algorithm_Practice\bin\Debug\Algorithm_Practice.exe.config
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Algorithm_Practice\Algorithm_Practice\bin\Debug\Algorithm_Practice.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Algorithm_Practice\Algorithm_Practice\bin\Debug\Algorithm_Practice.pdb
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Algorithm_Practice\Algorithm_Practice\obj\Debug\Algorithm_Practice.csprojAssemblyReference.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Algorithm_Practice\Algorithm_Practice\obj\Debug\Algorithm_Practice.csproj.CoreCompileInputs.cache
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Algorithm_Practice\Algorithm_Practice\obj\Debug\Algorithm_Practice.exe
+C:\Users\195712\Documents\Senior-CodeClass\Semester 2\Algorithm_Practice\Algorithm_Practice\obj\Debug\Algorithm_Practice.pdb
