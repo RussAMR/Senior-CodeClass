@@ -40,6 +40,10 @@ public class Movement : MonoBehaviour
                 transform.position = new Vector3(0, .62f, 0);//(where you want to teleport)
             
         }
+        if(collision.collider.tag == "WB")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
 }

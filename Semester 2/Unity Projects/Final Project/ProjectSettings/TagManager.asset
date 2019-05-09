@@ -10,6 +10,8 @@ TagManager:
   - Starter
   - Tutorial
   - Special
+  - Start
+  - WB
   layers:
   - Default
   - TransparentFX
